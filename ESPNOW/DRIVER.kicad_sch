@@ -1446,6 +1446,28 @@
 		)
 		(uuid "17bb7df6-5ea5-4260-a979-b5be2e334286")
 	)
+	(hierarchical_label "BIN1"
+		(shape input)
+		(at 129.54 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ef63b98-6670-4358-bdd8-e8d3a5cc2b3a")
+	)
+	(hierarchical_label "BIN2"
+		(shape input)
+		(at 129.54 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22bb3146-dc2c-4519-a32e-dcdfaa534595")
+	)
 	(hierarchical_label "BOUT2"
 		(shape bidirectional)
 		(at 160.02 104.14 0)
@@ -1457,7 +1479,7 @@
 		)
 		(uuid "4224c330-c924-4ea8-8a9f-2e479c2ed397")
 	)
-	(hierarchical_label "BIN2"
+	(hierarchical_label "AIN2"
 		(shape input)
 		(at 129.54 106.68 180)
 		(effects
@@ -1466,18 +1488,18 @@
 			)
 			(justify right)
 		)
-		(uuid "62d0dc80-a716-4845-b259-d7929c86c6fc")
+		(uuid "62942bb2-609f-401a-9975-70433f34b163")
 	)
 	(hierarchical_label "AIN1"
 		(shape input)
-		(at 129.54 96.52 180)
+		(at 129.54 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7c238fcb-0c71-4952-93fe-3188ac25e893")
+		(uuid "87f57a50-98ca-4284-ab1a-37cb63dd007c")
 	)
 	(hierarchical_label "fault"
 		(shape output)
@@ -1511,28 +1533,6 @@
 			(justify left)
 		)
 		(uuid "cc054343-9a43-4bf6-b067-529fbd74d9f0")
-	)
-	(hierarchical_label "AIN2"
-		(shape input)
-		(at 129.54 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d68a9f99-f57f-4d60-9324-452145d956a8")
-	)
-	(hierarchical_label "BIN1"
-		(shape input)
-		(at 129.54 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ffb4493c-5c9f-4c3c-a29a-2e64f1edfeb4")
 	)
 	(symbol
 		(lib_id "Driver_Motor:DRV8848")
@@ -2001,7 +2001,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500m"
 			(at 185.42 92.71 90)
 			(effects
 				(font
@@ -2137,7 +2137,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500m"
 			(at 185.42 102.87 90)
 			(effects
 				(font
